@@ -1,0 +1,144 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.title {
+    margin: 1em 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.error {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+}
+
+.search {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.search__filter:after,
+.search__filter:before {
+    display: table;
+    content: " ";
+}
+
+.search, .search__filter:after {
+    clear: both;
+}
+
+label {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 2px;
+}
+
+button,
+input,
+select {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+}
+
+option[disabled] {
+    background-color: #eee;
+    opacity: 1;
+}
+
+.search__button {
+    overflow: visible;
+    cursor: pointer;
+}
+
+input {
+    line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search__filter {
+    display: block;
+    margin: 10px;
+}
+
+.search__field {
+    width: 25%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.multi {
+    height: 70px;
+}
+
+.search__button {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.search__button:focus,
+.search__button:hover {
+    background-color: #449d44;
+    border-color: #255625;
+}
+
+.result {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+td {
+    border: 2px solid #ddd;
+    padding: 7px;
+    white-space: nowrap;
+}
+
+tr > td:hover,
+tr:hover > td {
+    background-color: #d0e9c6;
+}
